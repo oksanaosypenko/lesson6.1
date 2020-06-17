@@ -1,0 +1,118 @@
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: #3B3F45;
+    font-weight: 100;
+    color: white;
+    border: 30px solid white;
+    margin-top: 0;  
+}
+    header {
+        text-align: center;
+        color: #EB7E7C;
+        margin: 10px;
+        background-color: #4A4F56;
+        padding: 1px;
+        line-height: 0.5em;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+      }
+h1,h3 {
+    color:  #eb7e7f;
+   
+}
+h3 {
+    font-weight: 100;
+}
+ul {
+    display: initial;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+div {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+    padding-left: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+li:hover {
+    background-color: #625e77;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    
+}
+input:checked + label {
+    text-decoration: line-through;
+    opacity: 0.5;
+   }
+
+input {
+    transform:scale(2.0);
+    margin: 18px 20px 3px 4px;
+    }
+
+    input[type="checkbox" i] {
+        background-color: initial;
+        cursor: default;
+        -webkit-appearance: checkbox;
+        box-sizing: border-box;
+         }
+
+         .additional::before {
+             content: "(";
+             padding-right: 2px;
+            
+         }
+         .additional::after {
+             content: ")";
+             padding-left: 2px;
+         }
+         .additional {
+             font-size: 14px;
+             opacity: 50%;
+         }
+    .item1 {
+
+        background-color: #88839e;
+        height: 50px;
+    }
+    .item2 {
+        background-color: #7a7593;
+        height: 50px;
+    }
+    *{transition: all .1s ease-in;}
+    
+    .item1:active {
+        background-color: tomato;
+    }
+    .item2:active {
+        background-color: tomato;
+    }
+    .footer {
+        display: block;
+        background-color: #4a4f56;
+        margin-bottom: 50px;
+        margin-top: 40px;
+        height: 50px;
+        width: 800px;
+        margin-right: auto;
+        margin-left: auto;    
+    }
+   #footer {
+    color: #EB7E7F;
+    text-align: center;
+    padding-top: 14px;
+      }
